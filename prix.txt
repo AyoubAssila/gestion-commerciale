@@ -1,1 +1,4 @@
+<<<<<<< HEAD
 Prix du produit = 100 DT
+=======
+>>>>>>> feature-prix-B
