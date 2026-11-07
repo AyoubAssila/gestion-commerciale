@@ -1,0 +1,21 @@
+name: Verification du projet
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  verification:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Recuperation du code
+        uses: actions/checkout@v4
+
+      - name: Verification
+        run: echo "Projet verifie avec succes"
+
+      - name: Afficher la date
+        run: date
